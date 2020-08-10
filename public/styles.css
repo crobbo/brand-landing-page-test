@@ -18050,6 +18050,22 @@ video {
   border-radius: 0.375rem;
 }
 
+.vh-10 {
+  height: 10vh;
+}
+
+.vh-25 {
+  height: 25vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
