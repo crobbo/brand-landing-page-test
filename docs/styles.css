@@ -18050,6 +18050,56 @@ video {
   border-radius: 0.375rem;
 }
 
+.vh-10 {
+  height: 10vh;
+}
+
+.vh-25 {
+  height: 25vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin: auto auto;
+  border-top: 20px solid #cc4068;
+}
+
+.black-logo {
+  color: #3c3c3b;
+}
+
+.bg-black-logo {
+  --bg-opacity: 1;
+  /* background-color: #3c3c3b; */
+  background-color: #cc4068;
+}
+
+.lime-logo {
+  color: #c2d66a;
+}
+
+.bg-lime-logo {
+  --bg-opacity: 1;
+  background-color: #c2d66a;
+}
+
+.bg-yellow-scheme {
+  --bg-opacity: 0.5;
+  /* background-color: #3c3c3b; */
+  background-color: #ffca3a;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
