@@ -26,7 +26,7 @@
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     margin: auto auto;
-    border-top: 20px solid #cc4068;
+    border-top: 20px solid #ffe46d;
   }
 
   .black-logo {
@@ -36,7 +36,7 @@
   .bg-black-logo {
     --bg-opacity: 1;
     /* background-color: #3c3c3b; */
-    background-color: #cc4068;
+    background-color: #ffe46d;
 }
 
   .lime-logo {
