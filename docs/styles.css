@@ -35451,6 +35451,22 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .sm\:vh-10 {
+    height: 10vh;
+  }
+
+  .sm\:vh-25 {
+    height: 25vh;
+  }
+
+  .sm\:vh-50 {
+    height: 50vh;
+  }
+
+  .sm\:vh-75 {
+    height: 75vh;
+  }
 }
 
 @media (min-width: 768px) {
@@ -52803,6 +52819,22 @@ video {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:vh-10 {
+    height: 10vh;
+  }
+
+  .md\:vh-25 {
+    height: 25vh;
+  }
+
+  .md\:vh-50 {
+    height: 50vh;
+  }
+
+  .md\:vh-75 {
+    height: 75vh;
   }
 }
 
@@ -70157,6 +70189,22 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .lg\:vh-10 {
+    height: 10vh;
+  }
+
+  .lg\:vh-25 {
+    height: 25vh;
+  }
+
+  .lg\:vh-50 {
+    height: 50vh;
+  }
+
+  .lg\:vh-75 {
+    height: 75vh;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -87509,5 +87557,21 @@ video {
   .xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:vh-10 {
+    height: 10vh;
+  }
+
+  .xl\:vh-25 {
+    height: 25vh;
+  }
+
+  .xl\:vh-50 {
+    height: 50vh;
+  }
+
+  .xl\:vh-75 {
+    height: 75vh;
   }
 }
