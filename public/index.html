@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tippl</title>
+    
+    <link rel="preconnect" href="https://app.snipcart.com">
+    <link rel="preconnect" href="https://cdn.snipcart.com">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.19/default/snipcart.css" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -14,9 +18,10 @@
         </div>
 
         <div>
-            <button class="lg:w-1/5 p-2 py-2 text-xl md:mr-20 mr-8 font-bold text-black bg-black-logo rounded hover:bg-blue-700 " style="width:120px ">
+            <a href="#buy-now"><button class="lg:w-1/5 p-2 py-2 text-xl md:mr-20 mr-8 font-bold text-black bg-black-logo rounded hover:bg-blue-700 " style="width:120px" >
                 BUY NOW
-            </button>  
+            </button>  </a>
+
             
         </div>
     </header>
@@ -259,7 +264,7 @@
 
     <!-- Flavours -->
      
-    <div class="flex justify-center lg:flex-row lg flex-wrap py-20">
+    <div id="buy-now" class="flex justify-center lg:flex-row lg flex-wrap py-20">
         <div class="flex lg:justify-end justify-center lg:w-1/2 w-3/4">
             <img class=" pt-20" src="https://via.placeholder.com/500x500">
         </div>
@@ -278,12 +283,21 @@
                 <br>
                 ✅ 25 servings per tub
                 </p>
-                <h2 class=" lg:w-1/2 mt-5 text-gray-800 text-4xl font-extrabold">£29.99</h2>  
-            <button class="lg:w-1/5 px-4 py-2 text-2xl font-bold text-black bg-black-logo rounded hover:bg-blue-700 " style="width:150px ">
+                <h2 class="snipcart-add-item lg:w-1/2 mt-5 text-gray-800 text-4xl font-extrabold">£29.99</h2>
+                *Choose flavour at checkout  
+            <button class="lg:w-1/5 px-4 py-2 text-2xl font-bold text-black bg-black-logo rounded hover:bg-blue-700 snipcart-add-item" style="width:150px" 
+            data-item-id="whey-protein"
+            data-item-price="29.99"
+            data-item-url="/paintings/starry-night"
+            data-item-description="High-quality juicy protein that is refreshingly good"
+            data-item-image="img/pixzolo-photography-cLmCH3aygHk-unsplash.jpg"
+            data-item-name="Juicy Whey Protein"
+            data-item-custom1-name="Flavour"
+            data-item-custom1-options="Pina Colada|Strawberry Daquiri|Passion Fruit Mojito">
                 BUY NOW
             </button>  
         </div>
-    </div>
+    </div>    
 
 
     
@@ -294,14 +308,14 @@
         <p class="pb-5 absolute inset-x-0 bottom-0 text-center">Copyright © 2020 tippl</p>
     </footer>
     
-    <script>      
-    
+    <script>   
     const changeColor = () => {
     // document.getElementById("navbar").classList.remove('bg-white')
     document.getElementById("navbar").classList.add('border-gray-200', 'border-b-2', 'border-solid')
     }
-
     </script>
+    <div hidden id="snipcart" data-api-key="N2ZkMzYyOGQtNTMwYS00ODRlLWE0ZTEtMTg5OTI5ZTY4NTA4NjM3MzM0NTU1MDMyNzcwMTky"></div>
+    <script src="https://cdn.snipcart.com/themes/v3.0.19/default/snipcart.js"></script>
  
 </body>
 </html>

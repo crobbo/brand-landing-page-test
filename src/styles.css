@@ -55,3 +55,14 @@
     /* background-color: #3c3c3b; */
     background-color: #ffca3a;
 }
+
+/* .snipcart-modal {
+    background-color: white;
+} */
+
+.snipcart-overwrite #snipcart-header #snipcart-total {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    opacity: 0.5;
+}
