@@ -18100,6 +18100,17 @@ video {
   background-color: #ffca3a;
 }
 
+/* .snipcart-modal {
+    background-color: white;
+} */
+
+.snipcart-overwrite #snipcart-header #snipcart-total {
+  background-color: transparent;
+  color: #333;
+  border: none;
+  opacity: 0.5;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
